@@ -71,6 +71,9 @@ class UploadViewController: UIViewController, UIImagePickerControllerDelegate, U
                                         self.errorMessage(title: "Error", message: error?.localizedDescription ?? "Error! Try Again!")
                                     } else {
                                         
+                                        self.imageView.image = UIImage(named: "upload")
+                                        self.commentTextField.text = ""
+                                        self.tabBarController?.selectedIndex = 0
                                     }
                                 }
                             }

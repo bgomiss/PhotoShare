@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C4D0D9F2975CDB8002333F2 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D0D9E2975CDB8002333F2 /* FeedCell.swift */; };
 		1C653D9B297431B500038690 /* FeedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C653D9A297431B500038690 /* FeedsViewController.swift */; };
 		1C653D9D297431D000038690 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C653D9C297431D000038690 /* UploadViewController.swift */; };
 		1C653D9F297431E200038690 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C653D9E297431E200038690 /* SettingsViewController.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C4D0D9E2975CDB8002333F2 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		1C653D9A297431B500038690 /* FeedsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsViewController.swift; sourceTree = "<group>"; };
 		1C653D9C297431D000038690 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		1C653D9E297431E200038690 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -122,13 +124,14 @@
 				1CD76A7C2973231B001A6711 /* SceneDelegate.swift */,
 				1CD76A7E2973231B001A6711 /* ViewController.swift */,
 				1CD76A802973231B001A6711 /* Main.storyboard */,
-				1CD76A832973231C001A6711 /* Assets.xcassets */,
 				1CD76A852973231C001A6711 /* LaunchScreen.storyboard */,
-				1CD76A882973231C001A6711 /* Info.plist */,
-				1CD76A8E297324FB001A6711 /* GoogleService-Info.plist */,
 				1C653D9A297431B500038690 /* FeedsViewController.swift */,
 				1C653D9C297431D000038690 /* UploadViewController.swift */,
 				1C653D9E297431E200038690 /* SettingsViewController.swift */,
+				1C4D0D9E2975CDB8002333F2 /* FeedCell.swift */,
+				1CD76A832973231C001A6711 /* Assets.xcassets */,
+				1CD76A882973231C001A6711 /* Info.plist */,
+				1CD76A8E297324FB001A6711 /* GoogleService-Info.plist */,
 			);
 			path = PhotoShareApp;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C4D0D9F2975CDB8002333F2 /* FeedCell.swift in Sources */,
 				1CD76A7F2973231B001A6711 /* ViewController.swift in Sources */,
 				1C653D9D297431D000038690 /* UploadViewController.swift in Sources */,
 				1CD76A7B2973231B001A6711 /* AppDelegate.swift in Sources */,
