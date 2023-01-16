@@ -7,6 +7,8 @@
 
 import UIKit
 import FirebaseStorage
+import FirebaseFirestore
+import Firebase
 
 class UploadViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
@@ -57,6 +59,22 @@ class UploadViewController: UIViewController, UIImagePickerControllerDelegate, U
                         if error == nil {
                             let imageUrl = url?.absoluteString
                            
+                            if let imageUrl = imageUrl {
+                                let firestoreDatabase = Firestore.firestore()
+                                                         
+                                let firestorePost = ["imageUrl" : imageUrl, "comment" : self.commentTextField.text!, "email" : Auth.auth().currentUser!.email!, "Date" : FieldValue.serverTimestamp()] as [String : Any]
+                                                         
+                                firestoreDatabase.collection("POST").addDocument(data: firestorePost) {
+                                    (error) in
+                                    
+                                    if error != nil {
+                                        self.errorMessage(title: "Error", message: error?.localizedDescription ?? "Error! Try Again!")
+                                    } else {
+                                        
+                                    }
+                                }
+                            }
+                         
                         }
                     }
                 }
