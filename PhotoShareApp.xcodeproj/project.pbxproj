@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1C4D0D9F2975CDB8002333F2 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D0D9E2975CDB8002333F2 /* FeedCell.swift */; };
 		1C5575A929770080008B4B24 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 1C5575A829770080008B4B24 /* SDWebImage */; };
+		1C5575AB2977075E008B4B24 /* POST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5575AA2977075E008B4B24 /* POST.swift */; };
 		1C653D9B297431B500038690 /* FeedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C653D9A297431B500038690 /* FeedsViewController.swift */; };
 		1C653D9D297431D000038690 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C653D9C297431D000038690 /* UploadViewController.swift */; };
 		1C653D9F297431E200038690 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C653D9E297431E200038690 /* SettingsViewController.swift */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		1C4D0D9E2975CDB8002333F2 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		1C5575AA2977075E008B4B24 /* POST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POST.swift; sourceTree = "<group>"; };
 		1C653D9A297431B500038690 /* FeedsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsViewController.swift; sourceTree = "<group>"; };
 		1C653D9C297431D000038690 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		1C653D9E297431E200038690 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				1CD76A832973231C001A6711 /* Assets.xcassets */,
 				1CD76A882973231C001A6711 /* Info.plist */,
 				1CD76A8E297324FB001A6711 /* GoogleService-Info.plist */,
+				1C5575AA2977075E008B4B24 /* POST.swift */,
 			);
 			path = PhotoShareApp;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				1C4D0D9F2975CDB8002333F2 /* FeedCell.swift in Sources */,
 				1CD76A7F2973231B001A6711 /* ViewController.swift in Sources */,
 				1C653D9D297431D000038690 /* UploadViewController.swift in Sources */,
+				1C5575AB2977075E008B4B24 /* POST.swift in Sources */,
 				1CD76A7B2973231B001A6711 /* AppDelegate.swift in Sources */,
 				1C653D9B297431B500038690 /* FeedsViewController.swift in Sources */,
 				1CD76A7D2973231B001A6711 /* SceneDelegate.swift in Sources */,

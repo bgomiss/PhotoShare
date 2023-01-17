@@ -166,43 +166,49 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="710"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="319" id="QCE-ki-gHA" customClass="FeedCell" customModule="PhotoShareApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="319"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="346" id="QCE-ki-gHA" customClass="FeedCell" customModule="PhotoShareApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="346"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QCE-ki-gHA" id="tq4-7j-kCZ">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="319"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="346"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9g7-9M-i82">
-                                                    <rect key="frame" x="20" y="11" width="373" height="37"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="o4D-Oj-2rb">
+                                                    <rect key="frame" x="20" y="56" width="353" height="207"/>
+                                                    <accessibility key="accessibilityConfiguration">
+                                                        <bool key="isElement" value="YES"/>
+                                                    </accessibility>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="comment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B8H-FE-dNq">
+                                                    <rect key="frame" x="20" y="271" width="363" height="37"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="37" id="Rwn-xK-Pwt"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="o4D-Oj-2rb">
-                                                    <rect key="frame" x="20" y="-40.666666666666657" width="353" height="400.33333333333326"/>
-                                                    <accessibility key="accessibilityConfiguration">
-                                                        <bool key="isElement" value="YES"/>
-                                                    </accessibility>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9g7-9M-i82">
+                                                    <rect key="frame" x="20" y="11" width="373" height="37"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="400" id="HUM-n2-09t"/>
-                                                        <constraint firstAttribute="width" constant="353" id="vYR-ef-gg3"/>
+                                                        <constraint firstAttribute="height" constant="37" id="Qx0-MC-A6V"/>
                                                     </constraints>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="comment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B8H-FE-dNq">
-                                                    <rect key="frame" x="20" y="271" width="363" height="37"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="o4D-Oj-2rb" firstAttribute="top" secondItem="9g7-9M-i82" secondAttribute="bottom" constant="8" symbolic="YES" id="0GE-cW-LmD"/>
-                                                <constraint firstItem="B8H-FE-dNq" firstAttribute="top" secondItem="o4D-Oj-2rb" secondAttribute="bottom" constant="8" symbolic="YES" id="1mY-41-hbC"/>
-                                                <constraint firstItem="o4D-Oj-2rb" firstAttribute="leading" secondItem="9g7-9M-i82" secondAttribute="leading" id="XIn-Vn-yqX"/>
-                                                <constraint firstItem="o4D-Oj-2rb" firstAttribute="centerY" secondItem="tq4-7j-kCZ" secondAttribute="centerY" id="bEp-LQ-otK"/>
-                                                <constraint firstItem="o4D-Oj-2rb" firstAttribute="leading" secondItem="B8H-FE-dNq" secondAttribute="leading" id="ffm-aa-lMn"/>
-                                                <constraint firstItem="o4D-Oj-2rb" firstAttribute="leading" secondItem="tq4-7j-kCZ" secondAttribute="leadingMargin" id="qLP-za-NMh"/>
+                                                <constraint firstItem="o4D-Oj-2rb" firstAttribute="leading" secondItem="B8H-FE-dNq" secondAttribute="leading" id="0jx-Sq-k6u"/>
+                                                <constraint firstItem="o4D-Oj-2rb" firstAttribute="leading" secondItem="9g7-9M-i82" secondAttribute="leading" id="BIE-DB-8aE"/>
+                                                <constraint firstItem="o4D-Oj-2rb" firstAttribute="top" secondItem="tq4-7j-kCZ" secondAttribute="topMargin" constant="45" id="S4S-QE-cOW"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="B8H-FE-dNq" secondAttribute="trailing" constant="-10" id="XdB-NB-H0o"/>
+                                                <constraint firstItem="o4D-Oj-2rb" firstAttribute="top" secondItem="9g7-9M-i82" secondAttribute="bottom" constant="8" symbolic="YES" id="XqL-bE-ofR"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="B8H-FE-dNq" secondAttribute="bottom" constant="27" id="Zek-Yw-lZS"/>
+                                                <constraint firstItem="o4D-Oj-2rb" firstAttribute="leading" secondItem="tq4-7j-kCZ" secondAttribute="leadingMargin" id="cgl-av-2De"/>
+                                                <constraint firstItem="o4D-Oj-2rb" firstAttribute="trailing" secondItem="tq4-7j-kCZ" secondAttribute="trailingMargin" id="eI6-qi-e2h"/>
+                                                <constraint firstAttribute="trailing" secondItem="9g7-9M-i82" secondAttribute="trailing" id="oBv-AF-HB4"/>
+                                                <constraint firstItem="B8H-FE-dNq" firstAttribute="top" secondItem="o4D-Oj-2rb" secondAttribute="bottom" constant="8" symbolic="YES" id="rIY-Vd-eA2"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
